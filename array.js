@@ -33,3 +33,13 @@ var declareArray = [12, 20, 54, 77];
 var numbers = [12, 54, 87, 90, 44];
 var position = numbers.indexOf(44);
 console.log(position);
+
+//6. Change an element by index
+var numbers = [12, 54, 87, 90, 44];
+numbers[1] = [60];
+console.log(numbers);
+
+//7. get the index of an element by the value
+var numbers = [12, 54, 87, 90, 44];
+var value = numbers.indexOf(87);
+console.log(value);
