@@ -51,3 +51,9 @@ console.log(value);
 var value = [12, 54, 87, 90, 44];
 value.push(30);
 console.log(value);
+
+
+// 10. How can you remove the last element from array
+var value = [12, 54, 87, 90, 44];
+value.pop();
+console.log(value);
