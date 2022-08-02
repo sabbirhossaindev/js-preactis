@@ -42,10 +42,35 @@ for (var i = 481; i <= 623; i+=2) {
 
 //5. Difference between while loop and for loop
 // while loop
-while (expression) {
-    // statement
+// while (expression) {
+//     // statement
+// }
+var value = 0;
+while (value < 5) {
+    console.log('while loop');
+    value = value + 1;
 }
 // loop
-for (initialization; condition; final - expressing){
-    // statement;
+// for (initialization; condition; final - expressing){
+//     // statement;
+// }
+for (var i = 0; i < 5; i++) {
+    console.log('for loop');
 }
+
+//7. Create an array for all the mobile phones. Display all the elements of the array by using a while loop
+var useMobile = ['robi', 'symphony-i97', 'techno'];
+// pari na;
+
+//8. Run a loop from 30 to 86. this loop will stop if the values get higher than 44
+// break explore
+var numbers = [45, 87, 89, 99, 30, 32, 33, 42, 44, 55,];
+for (var i = 0; i < numbers.length; i++) {
+    var number = numbers[i];
+    if (number > 44) {
+        continue;
+    }
+    console.log(number);
+}
+
+//9. Write the price of the books that you have. Display the prices if the prices is lower than 200
