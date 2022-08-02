@@ -57,3 +57,15 @@ console.log(value);
 var value = [12, 54, 87, 90, 44];
 value.pop();
 console.log(value);
+
+
+// 11. Add an element at the first position of an array
+var value = [12, 54, 87, 90, 44];
+value.unshift(3);
+console.log(value);
+
+
+// 12. Remove the first element of an array
+var value = [12, 54, 87, 90, 44];
+value.shift();
+console.log(value);
