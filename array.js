@@ -43,3 +43,11 @@ console.log(numbers);
 var numbers = [12, 54, 87, 90, 44];
 var value = numbers.indexOf(87);
 console.log(value);
+
+// 8. what does it mean when you get undefined while getting the value of an element by index
+
+
+// 9. How can you add an element to an array at the last position
+var value = [12, 54, 87, 90, 44];
+value.push(30);
+console.log(value);
