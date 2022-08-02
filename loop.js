@@ -15,3 +15,21 @@ by using a while loop
 9. Write the price of the books that you have. 
 Display the prices if the prices is lower than 200
 */
+
+//1. Display "Ajke amar mon valo nei" for 39 times
+var i = 39;
+for (var i = 1; i <= 39; i++) {
+    console.log('ajka amr mon valo nai');
+}
+
+//2. Display numbers between 58 to 98
+var i = 98;
+for (var i = 58; i <= 98; i++) {
+    console.log(i);
+}
+
+//3. Show all even numbers from 412 to 456
+var i = 412;
+for (var i = 412; i <= 456; i+=2) {
+    console.log(i);
+}
