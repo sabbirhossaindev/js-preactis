@@ -33,3 +33,19 @@ var i = 412;
 for (var i = 412; i <= 456; i+=2) {
     console.log(i);
 }
+
+//4. Show all odd numbers 581 to 623
+var i = 481;
+for (var i = 481; i <= 623; i+=2) {
+    console.log(i);
+}
+
+//5. Difference between while loop and for loop
+// while loop
+while (expression) {
+    // statement
+}
+// loop
+for (initialization; condition; final - expressing){
+    // statement;
+}
