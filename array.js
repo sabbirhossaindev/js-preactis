@@ -15,3 +15,7 @@ ARRAY
 11. Add an element at the first position of an array
 12. Remove the first element of an array
 */
+
+
+//1. What is the purpose?
+// In this article, we discuss what JavaScript can be used for on the web, its downsides, and how to use it responsibly.
