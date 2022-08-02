@@ -21,4 +21,7 @@ ARRAY
 // In this article, we discuss what JavaScript can be used for on the web, its downsides, and how to use it responsibly.
 
 //2. How to declare an array in JS
+var broNames = ['sabbir', 'nadim', 'arsh'];
+
+//3. Number of elements in an Array
 var declareArray = [12, 20, 54, 77];
