@@ -81,3 +81,20 @@ var b = 20;
 console.log(a % b);
 
 //9. Short hand: +=, -=, *=, /=
+var myprices = 100;
+console.log(myprices = myprices += 6);
+var myprices = 100;
+console.log(myprices = myprices -= 6);
+var myprices = 100;
+console.log(myprices = myprices *= 6);
+var myprices = 100;
+console.log(myprices = myprices /= 6);
+
+// 10. ++, --
+var dabuleSamation = 10;
+dabuleSamation++;
+console.log(dabuleSamation);
+
+var dabuleSamation = 10;
+dabuleSamation--;
+console.log(dabuleSamation);
