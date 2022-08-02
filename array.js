@@ -25,3 +25,11 @@ var broNames = ['sabbir', 'nadim', 'arsh'];
 
 //3. Number of elements in an Array
 var declareArray = [12, 20, 54, 77];
+
+//4. What is index?
+//index. js typically handles your app startup, routing and other functions of your application and does require other modules to add functionality.
+
+//5. Find the value of an element by index
+var numbers = [12, 54, 87, 90, 44];
+var position = numbers.indexOf(44);
+console.log(position);
