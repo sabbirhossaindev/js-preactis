@@ -98,3 +98,20 @@ console.log(dabuleSamation);
 var dabuleSamation = 10;
 dabuleSamation--;
 console.log(dabuleSamation);
+
+//11. parseInt, ParseFloat
+var number = 100;
+var number = parseInt(number);
+console.log(number);
+
+var number = 10.03;
+var number = parseFloat(number);
+console.log(number);
+
+//12. toFixed
+var price1 = 0.1;
+var price2 = 0.2;
+var sum = price1 + price2;
+sum = sum.toFixed(1);
+var sum = parseFloat(sum);
+console.log(sum);
