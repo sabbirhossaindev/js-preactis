@@ -74,3 +74,10 @@ for (var i = 0; i < numbers.length; i++) {
 }
 
 //9. Write the price of the books that you have. Display the prices if the prices is lower than 200
+
+var myArray = [200, 500, 100, 90, 10, 50, 70, 300, 310, 400];
+for (var i = 0; i < myArray.length; i++) {
+    if (myArray[i] <= 300) {
+        console.log(myArray[i]);
+    }
+}
