@@ -35,25 +35,19 @@ if you more than 40,000 then  you will by Lenovo Yoga
 if you have more than 20, 000 then  you will by an used laptop
 otherwise, you will use you mobile phone
 */
-var macAmount = 800000;
-var gamingLaptop = 60000;
-var lenovoYoga = 40000;
-var phoneAmount = 20000;
-if (macAmount > gamingLaptop) {
+var money = 10000;
+if (money > 80000) {
     console.log('Mama mac use korta hoba');
 }
-else if (macAmount > lenovoYoga) {
+else if (money > 60000 && money <= 80000) {
     console.log('Mama mac use korta hoba');
 }
-else if (macAmount > phoneAmount) {
-    console.log('Mama mac use korta hoba');
-}
-else if (gamingLaptop > lenovoYoga) {
+else if (money > 40000 && money <= 60000) {
     console.log('gaming laptop hur ree !!!');
-} 
-else if (gamingLaptop > lenovoYoga) {
-    console.log('gaming laptop hur ree !!!');
-} 
+}
+else if (money > 20000 && money <= 40000) {
+    console.log('levono laptop kinta hoba');
+}
 else {
-    console.log('phone ii kinta hoba');
+    console.log('techno phn kinta hoba');
 }
